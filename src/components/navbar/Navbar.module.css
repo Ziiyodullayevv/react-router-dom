@@ -1,0 +1,26 @@
+.navigation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(119, 119, 119);
+}
+
+.list {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  transition: all 0.3s ease;
+}
+
+.list a {
+  text-decoration: none;
+  color: black;
+}
+
+.item a:hover {
+  color: white;
+}
+
+.item a.active {
+  color: yellow;
+}
