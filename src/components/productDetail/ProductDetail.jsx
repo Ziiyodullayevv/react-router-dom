@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate, useParams, Link } from "react-router-dom";
 
 const ProductDetail = () => {
   const prams = useParams();
@@ -12,6 +12,11 @@ const ProductDetail = () => {
     <div>
       <p>
         <button onClick={handlerNavigate}>orqaga qaytish</button>
+      </p>
+      <p>
+        <Link to=".." relative="path">
+          Back
+        </Link>
       </p>
       <h4>{prams.productId}</h4>
       <h2>Product Details</h2>

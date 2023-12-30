@@ -10,7 +10,7 @@ const Home = () => {
     <div>
       <h2>Home Page</h2>
       <p>
-        <Link to={"/users"}>Users Page</Link>
+        <Link to={"products"}>Users Page</Link>
       </p>
       <p>
         <button onClick={navigateHandler}>Navigate Users</button>
